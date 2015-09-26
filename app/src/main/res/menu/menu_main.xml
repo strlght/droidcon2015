@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item android:title="Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_contacts"
+                    android:title="Contact" />
+                <item
+                    android:icon="@drawable/ic_android"
+                    android:title="Item" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Another group">
+        <menu>
+            <item
+                android:icon="@drawable/ic_announcement"
+                android:title="Another item" />
+            <item
+                android:icon="@drawable/ic_settings"
+                android:title="Yet another item" />
+        </menu>
+    </item>
+</menu>
